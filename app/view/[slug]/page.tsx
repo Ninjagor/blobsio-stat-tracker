@@ -29,7 +29,7 @@ export default function Page({ params }: { params: { slug: string } }) {
 
   return (
     <>
-      <p>Kills: {kills}</p>
+      <p>Kills: {Math.round(kills!/4)}</p>
     </>
   );
 }
